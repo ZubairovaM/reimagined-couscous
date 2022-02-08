@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+      {% block head %}
+    <meta charset="utf-8">
+    <title>Сайт начинающего верстальщика</title>
+    <link rel="stylesheet" href="../static/style.css">
+      {% endblock %}
+  </head>
+  <body>
+  <header>
+      {% block header %}
+    <h1> Сайт начинающего версальщика</h1>
+    <img class="avatar" src="../static/img/raccoon.svg" width="80" height="80" alt="Аватарка">
+      {% endblock %}
+    </header>
+  <main>
+      {% block content %}{% endblock %}
+  </main>
+<footer>
+      Подвал сайта
+    </footer>
+  </body>
+</html>
