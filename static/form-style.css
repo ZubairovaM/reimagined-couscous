@@ -3,6 +3,7 @@
   padding-right: 390px;
 }
 
+
 .feedback-form input[type="text"],
 .feedback-form select,
 .feedback-form textarea {
@@ -30,4 +31,14 @@
 .feedback-form textarea {
   display: block;
   min-height: 120px;
+}
+
+.btn {
+  box-sizing: border-box;
+  padding: 9px 20px;
+  border: 2px solid #d5d5d5;
+  background: none;
+  width: 200px;
+  height: 50px;
+
 }

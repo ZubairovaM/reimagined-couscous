@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Сайт начинающего верстальщика</title>
-    <link rel="stylesheet" href="../static/style.css">
-  </head>
-  <body>
-    <header>
-      <p>Блог</p>
-      <nav>
-        <a href="index">На главную</a>
-      </nav>
-    </header>
+{% extends "base.html" %}
+
+{% block content %}
     <main>
       <article>
         <h1>День одиннадцатый. Без фанатизма</h1>
@@ -28,8 +17,4 @@
         Тут могла быть ваша реклама
       </aside>
     </main>
-    <footer>
-      Подвал сайта
-    </footer>
-  </body>
-</html>
+{% endblock %}
